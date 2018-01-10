@@ -2271,7 +2271,7 @@ $(document).ready(function(){
 	$(document).mouseup(function (e) {
     var container = $(".table");
     if (container.has(e.target).length === 0){
-        container.hide();
+        container.css('display','none');
         $(".price").css('display','none');
     }
 });
